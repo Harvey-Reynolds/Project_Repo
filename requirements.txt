@@ -1,0 +1,21 @@
+# Core scientific computing
+numpy==1.26.4
+scipy==1.11.4
+sympy==1.12
+
+# Visualization and plotting
+matplotlib==3.8.4
+pyvista==0.43.10
+vedo==2024.5.2
+
+# Mesh handling and processing
+meshio==5.3.5
+trimesh==4.4.4
+
+# CAD and geometry (alternative to SALOME)
+pythonocc-core==7.7.2
+
+# SALOME installation note:
+# SALOME must be installed separately from official website
+# It's not available via pip. Download from: https://www.salome-platform.org/
+# After installation, use SALOME's Python environment or add SALOME to PYTHONPATH
